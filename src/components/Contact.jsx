@@ -72,8 +72,8 @@ export default function Contact() {
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: '36px', paddingTop: '36px', borderTop: '1px solid #1a1a20' }}>
             {[
-              { label: 'LinkedIn', href: 'https://linkedin.com/in/zaeem-zahid', icon: <LinkedInIcon /> },
-              { label: 'GitHub', href: 'https://github.com/zaeemzahid', icon: <GitHubIcon /> },
+              { label: 'LinkedIn', href: 'https://www.linkedin.com/in/muhammad-zaeem-zahid-7132571a1/', icon: <LinkedInIcon /> },
+              { label: 'GitHub', href: 'https://github.com/mzaeemz', icon: <GitHubIcon /> },
             ].map(({ label, href, icon }) => (
               <motion.a
                 key={label} href={href} target="_blank" rel="noopener noreferrer"
